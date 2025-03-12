@@ -1,0 +1,22 @@
+﻿@model IN451_Unit2.Models.CustomerInfo  
+
+
+<h2>Customer Information</h2>
+
+<p>Total Customers: @Model.CustomerCount</p>  <!-- Display the customer count -->
+
+<h3>Full Names:</h3>
+<ul>
+    @foreach (var fullName in Model.FullNames!)
+    {
+        <li>@fullName</li>  <!-- Display each full name -->
+    }
+</ul>
+
+<h3>Last Names:</h3>
+<ul>
+    @foreach (var lastName in Model.LastNames!)
+    {
+        <li>@lastName</li>  <!-- Display each last name -->
+    }
+</ul>

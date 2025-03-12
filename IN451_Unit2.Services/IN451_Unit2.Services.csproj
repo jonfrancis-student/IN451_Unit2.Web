@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IN451_Unit2.DataAccess\IN451_Unit2.DataAccess.csproj" />
+    <ProjectReference Include="..\IN451_Unit2.Models\IN451_Unit2.Models.csproj" />
+  </ItemGroup>
+
+</Project>
