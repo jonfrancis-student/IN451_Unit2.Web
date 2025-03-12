@@ -31,6 +31,6 @@ git clone git clone https://github.com/jonfrancis-student/IN451_Unit2_Web.git
 Update the connection string in the appsettings.json file to point to your SQL Server instance (if necessary):
 ```bash
 "ConnectionStrings": {
-    "DefaultConnection": "Server=JON\\SQLEXPRESS;Database=Northwind;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=true"
+    "DefaultConnection": "Server=YourServerName;Database=Northwind;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=true"
 }
 ```
