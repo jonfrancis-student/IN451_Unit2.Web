@@ -23,7 +23,7 @@ This web application is built as part of the IN451 Unit 2 project using ASP.NET 
 ### Cloning the Repository
 To clone the repository, run the following command:
 ```bash
-git clone git clone https://github.com/jonfrancis-student/IN451_Unit2_Web.git
+git clone https://github.com/jonfrancis-student/IN451_Unit2_Web.git
 ```
 
 
