@@ -1,6 +1,6 @@
 # IN451 Unit 2 Web Application
 
-This web application is built as part of the IN451 Unit 2 project using ASP.NET 9.0 MVC, SQL Server, and C#. It demonstrates how to interact with a SQL Server database using Windows Authentication.
+This web application is built as part of the IN451 Unit 2 project using ASP.NET 9.0 MVC, SQL Server, and C#. It demonstrates how to implement a database schema and create an n-tier application to access the database.
 ## Features
 - **SQL Server Integration:** Connects to a local SQL Server instance (SQLEXPRESS) to interact with the Northwind database.
 - **Windows Authentication:** Uses Windows Authentication for secure database connections, utilizing the current Windows user's credentials for authentication.
