@@ -1,4 +1,4 @@
-#IN451 Unit 2 Web Application
+# IN451 Unit 2 Web Application
 
 This web application is built as part of the IN451 Unit 2 project using ASP.NET 9.0 MVC, SQL Server, and C#. It demonstrates how to interact with a SQL Server database using Windows Authentication.
 ## Features
