@@ -28,7 +28,8 @@ git clone https://github.com/jonfrancis-student/IN451_Unit2_Web.git
 
 
 ### Configure the Connection String:
-Update the connection string in the appsettings.json file to point to your SQL Server instance (if necessary):
+> [!IMPORTANT]
+> Update the connection string in the appsettings.json file to point to your SQL Server instance (if necessary):
 ```bash
 "ConnectionStrings": {
     "DefaultConnection": "Server=YourServerName;Database=Northwind;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=true"
