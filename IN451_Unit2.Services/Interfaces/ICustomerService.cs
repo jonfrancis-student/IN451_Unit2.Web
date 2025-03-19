@@ -4,10 +4,10 @@ namespace IN451_Unit2.Services.Interfaces
 {
     public interface ICustomerService
     {
-        /// <summary>
-        /// Gets all the customer information (count, full name, last name)
-        /// </summary>
-        /// <returns> CustomerInfo Object <</returns>
-        CustomerInfo GetCustomerInfo();
+        // Fetches all customers from the database
+        List<Customers> GetAllCustomers();
+
+        // Fetches the count of all customers
+        int GetCustomerCount();
     }
 }
